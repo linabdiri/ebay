@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cm001",
+    "ebayCategory": "Handys & Kommunikation",
+    "ebayKey": "map1",
+    "kleinCategory": "Elektronik > Handy & Telefon",
+    "kleinKey": "map1Target"
+  },
+  {
+    "id": "cm002",
+    "ebayCategory": "Haushalt & Küche",
+    "ebayKey": "map2",
+    "kleinCategory": "Haus & Garten > Haushaltsgeräte",
+    "kleinKey": "map2Target"
+  },
+  {
+    "id": "cm003",
+    "ebayCategory": "Computer & Tablets",
+    "ebayKey": "map3",
+    "kleinCategory": "Elektronik > Notebooks",
+    "kleinKey": "map3Target"
+  }
+]

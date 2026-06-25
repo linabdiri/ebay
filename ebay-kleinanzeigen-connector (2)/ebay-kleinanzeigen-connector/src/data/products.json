@@ -1,0 +1,90 @@
+[
+  {
+    "id": "p001",
+    "title": "Apple Watch Series 8 45mm GPS",
+    "ebayStatus": "active",
+    "kleinStatus": "online",
+    "transfer": "done",
+    "price": "299,00 €",
+    "stock": 1,
+    "lastCheck": "vor 4 Min.",
+    "category": "Elektronik > Smartwatches"
+  },
+  {
+    "id": "p002",
+    "title": "Sony WH-1000XM5 Kopfhörer",
+    "ebayStatus": "active",
+    "kleinStatus": "draft",
+    "transfer": "open",
+    "price": "249,00 €",
+    "stock": 2,
+    "lastCheck": "vor 7 Min.",
+    "category": "Elektronik > Kopfhörer"
+  },
+  {
+    "id": "p003",
+    "title": "Nintendo Switch OLED",
+    "ebayStatus": "sold",
+    "kleinStatus": "disabled",
+    "transfer": "done",
+    "price": "279,00 €",
+    "stock": 0,
+    "lastCheck": "vor 2 Min.",
+    "category": "Elektronik > Spielekonsolen"
+  },
+  {
+    "id": "p004",
+    "title": "Bosch Akkuschrauber Set",
+    "ebayStatus": "active",
+    "kleinStatus": "error",
+    "transfer": "open",
+    "price": "89,00 €",
+    "stock": 1,
+    "lastCheck": "vor 15 Min.",
+    "category": "Haushalt > Werkzeug"
+  },
+  {
+    "id": "p005",
+    "title": "Apple iPhone 13 Pro 256 GB",
+    "ebayStatus": "active",
+    "kleinStatus": "draft",
+    "transfer": "open",
+    "price": "649,00 €",
+    "stock": 1,
+    "lastCheck": "vor 20 Min.",
+    "category": "Elektronik > Handys"
+  },
+  {
+    "id": "p006",
+    "title": "Dyson V11 Absolute",
+    "ebayStatus": "active",
+    "kleinStatus": "error",
+    "transfer": "open",
+    "price": "349,00 €",
+    "stock": 1,
+    "lastCheck": "vor 32 Min.",
+    "category": "Haushalt > Staubsauger"
+  },
+  {
+    "id": "p007",
+    "title": "Samsung Galaxy Tab S8",
+    "ebayStatus": "active",
+    "kleinStatus": "online",
+    "transfer": "done",
+    "price": "499,00 €",
+    "stock": 3,
+    "lastCheck": "vor 1 Std.",
+    "category": "Elektronik > Tablets"
+  },
+  {
+    "id": "p008",
+    "title": "Levi's 501 Jeans W32 L32",
+    "ebayStatus": "active",
+    "kleinStatus": "draft",
+    "transfer": "open",
+    "price": "45,00 €",
+    "stock": 1,
+    "lastCheck": "vor 2 Std.",
+    "category": "Mode > Hosen"
+  }
+]

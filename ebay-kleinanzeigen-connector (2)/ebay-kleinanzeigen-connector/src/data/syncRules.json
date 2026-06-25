@@ -1,0 +1,30 @@
+[
+  {
+    "id": "r001",
+    "event": "eventEbaySold",
+    "action": "actDisableKlein",
+    "priority": "high",
+    "status": "active"
+  },
+  {
+    "id": "r002",
+    "event": "eventKleinSold",
+    "action": "actEndEbay",
+    "priority": "high",
+    "status": "active"
+  },
+  {
+    "id": "r003",
+    "event": "eventPriceChanged",
+    "action": "actUpdatePrice",
+    "priority": "medium",
+    "status": "active"
+  },
+  {
+    "id": "r004",
+    "event": "eventNewEbay",
+    "action": "actCreateDraft",
+    "priority": "medium",
+    "status": "active"
+  }
+]

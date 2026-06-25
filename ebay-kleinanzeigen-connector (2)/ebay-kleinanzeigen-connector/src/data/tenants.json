@@ -1,0 +1,32 @@
+[
+  {
+    "id": "t001",
+    "name": "Muster-Shop GmbH",
+    "plan": "Professional",
+    "status": "active",
+    "ebayConnected": true,
+    "kleinConnected": true,
+    "maxListings": 500,
+    "billing": "monthly"
+  },
+  {
+    "id": "t002",
+    "name": "Technikhandel Nord",
+    "plan": "Starter",
+    "status": "setup",
+    "ebayConnected": true,
+    "kleinConnected": false,
+    "maxListings": 100,
+    "billing": "monthly"
+  },
+  {
+    "id": "t003",
+    "name": "Demo Mandant",
+    "plan": "Demo",
+    "status": "test",
+    "ebayConnected": false,
+    "kleinConnected": false,
+    "maxListings": 10,
+    "billing": "yearly"
+  }
+]

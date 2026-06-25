@@ -1,0 +1,86 @@
+{
+  "metrics": [
+    {
+      "id": "m001",
+      "labelKey": "mEbayActive",
+      "value": "248",
+      "subKey": "mEbayActiveSub",
+      "subColor": null
+    },
+    {
+      "id": "m002",
+      "labelKey": "mKleinActive",
+      "value": "221",
+      "subKey": "mKleinActiveSub",
+      "subColor": null
+    },
+    {
+      "id": "m003",
+      "labelKey": "mQueue",
+      "value": "27",
+      "subKey": "mQueueSub",
+      "subColor": null
+    },
+    {
+      "id": "m004",
+      "labelKey": "mSoldToday",
+      "value": "9",
+      "subKey": "mSoldTodaySub",
+      "subColor": null
+    }
+  ],
+  "activityLog": [
+    {
+      "id": "a001",
+      "titleKey": "tl1",
+      "subKey": "tl1Sub"
+    },
+    {
+      "id": "a002",
+      "titleKey": "tl2",
+      "subKey": "tl2Sub"
+    },
+    {
+      "id": "a003",
+      "titleKey": "tl3",
+      "subKey": "tl3Sub"
+    },
+    {
+      "id": "a004",
+      "titleKey": "tl4",
+      "subKey": "tl4Sub"
+    }
+  ],
+  "attentionItems": [
+    {
+      "id": "att001",
+      "title": "Apple iPhone 13 Pro 256 GB",
+      "source": "eBay",
+      "problemKey": "problemMapping",
+      "statusKey": "statusReview",
+      "statusColor": "yellow",
+      "actionKey": "assign",
+      "modal": "mappingModal"
+    },
+    {
+      "id": "att002",
+      "title": "Dyson V11 Absolute",
+      "source": "Kleinanzeigen",
+      "problemKey": "problemRejected",
+      "statusKey": "statusError",
+      "statusColor": "red",
+      "actionKey": "edit",
+      "modal": "productModal"
+    },
+    {
+      "id": "att003",
+      "title": "Samsung Galaxy Tab S8",
+      "source": "eBay",
+      "problemKey": "problemPrice",
+      "statusKey": "statusNotice",
+      "statusColor": "blue",
+      "actionKey": "open",
+      "modal": "productModal"
+    }
+  ]
+}
