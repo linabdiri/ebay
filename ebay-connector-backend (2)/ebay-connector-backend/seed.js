@@ -33,24 +33,32 @@ const tenants = [
 async function seed() {
   try {
     await mongoose.connect(process.env.MONGO_URI);
-    console.log('✅ Connected to MongoDB Atlas');
+    console.log('✅ Connected to MongoDB');
 
-    await Product.deleteMany();
-    await SyncRule.deleteMany();
-    await Tenant.deleteMany();
+    // On vérifie 
+    const productCount = await Product.countDocuments();
+    const ruleCount     = await SyncRule.countDocuments();
+    const tenantCount   = await Tenant.countDocuments();
 
+    if (productCount > 0 || ruleCount > 0 || tenantCount > 0) {
+      console.log('⚠️  La base contient déjà des données — seed annulé pour ne pas écraser tes changements.');
+      console.log(`   - ${productCount} produits, ${ruleCount} règles, ${tenantCount} mandants déjà présents.`);
+      process.exit(0);
+    }
+
+    // on insère 
     await Product.insertMany(products);
     await SyncRule.insertMany(syncRules);
     await Tenant.insertMany(tenants);
 
-    console.log('✅ Database seeded successfully');
-    console.log(`   - ${products.length} products`);
-    console.log(`   - ${syncRules.length} sync rules`);
-    console.log(`   - ${tenants.length} tenants`);
+    console.log('✅ Base de données initialisée avec succès');
+    console.log(`   - ${products.length} produits`);
+    console.log(`   - ${syncRules.length} règles de synchro`);
+    console.log(`   - ${tenants.length} mandants`);
 
     process.exit(0);
   } catch (err) {
-    console.error('❌ Seed error:', err.message);
+    console.error('❌ Erreur seed:', err.message);
     process.exit(1);
   }
 }
